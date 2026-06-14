@@ -2,12 +2,15 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { AuthProvider } from '@/hooks/useAuth';
 import '@/styles/globals.css';
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: 'Aguirre Barbershop',
   description: 'Agende seu horário na Aguirre Barbershop',
   manifest: '/manifest.json',
+};
+
+export const viewport: Viewport = {
   themeColor: '#004D2C',
 };
 
