@@ -1,0 +1,197 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "logout": "Log out",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "seeAll": "See all",
+    "error": "An error occurred. Please try again.",
+    "success": "Operation completed successfully!",
+    "required": "Required field"
+  },
+  "nav": {
+    "home": "Home",
+    "appointments": "Appointments",
+    "chat": "Chat",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "schedule": "Schedule",
+    "services": "Services",
+    "clients": "Clients",
+    "dev": "Dev Panel"
+  },
+  "splash": {
+    "tagline": "Style & Tradition"
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "The best cut in town",
+      "description": "Find your ideal barber and book your appointment in seconds."
+    },
+    "slide2": {
+      "title": "Quality and tradition",
+      "description": "Premium services with the classic charm of Aguirre Barbershop."
+    }
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to book your next haircut",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "(11) 99999-9999",
+    "password": "Password",
+    "passwordPlaceholder": "Your password",
+    "forgotPassword": "Forgot password",
+    "enter": "Sign In",
+    "createAccount": "Create account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "adminAccess": "Administrative Access",
+    "adminSubtitle": "Restricted area for barbers and administrators",
+    "adminLogin": "Sign In as Admin",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Repeat your password",
+    "register": "Create account",
+    "errorInvalidCredentials": "Invalid email or password.",
+    "errorNotAdmin": "This account does not have administrator access.",
+    "errorPasswordMismatch": "Passwords do not match."
+  },
+  "home": {
+    "greeting": "Hello",
+    "location": "Your location",
+    "searchPlaceholder": "Search barber...",
+    "thisWeek": "This week",
+    "availableTimes": "Available times",
+    "nearbyBarbers": "Nearby barbershops",
+    "noBarbers": "No barbers found.",
+    "schedule": "Book",
+    "km": "km",
+    "stars": "stars"
+  },
+  "barber": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "bookNow": "Book Appointment",
+    "duration": "min",
+    "address": "Address",
+    "rating": "Rating",
+    "noServices": "No services registered.",
+    "noReviews": "No reviews yet."
+  },
+  "booking": {
+    "title": "Book Appointment",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "summary": "Appointment Summary",
+    "service": "Service",
+    "professional": "Professional",
+    "date": "Date",
+    "time": "Time",
+    "price": "Price",
+    "confirm": "Confirm Appointment",
+    "whatsappReminder": "You will receive a WhatsApp reminder 1 hour before your appointment.",
+    "noSlots": "No available slots for this date.",
+    "successTitle": "Appointment confirmed!",
+    "successMessage": "Your appointment has been successfully booked."
+  },
+  "chat": {
+    "title": "Chat",
+    "privacyNotice": "Messages are not stored and will be automatically deleted after the appointment.",
+    "openWhatsApp": "Open in WhatsApp",
+    "inputPlaceholder": "Type a message...",
+    "send": "Send",
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "upcomingAppointments": "Upcoming appointments",
+    "pastAppointments": "History",
+    "noAppointments": "No appointments found.",
+    "notifications": "Notifications",
+    "language": "Language",
+    "status": {
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard",
+      "todayAppointments": "Today's appointments",
+      "totalClients": "Total clients",
+      "nextAppointment": "Next appointment",
+      "revenue": "Today's revenue",
+      "upcomingToday": "Today's appointments",
+      "noAppointments": "No appointments today."
+    },
+    "schedule": {
+      "title": "Manage Schedule",
+      "addSlot": "+ Add time slot",
+      "removeSlot": "Remove",
+      "occupied": "Occupied",
+      "available": "Available",
+      "selectDate": "Select a date"
+    },
+    "services": {
+      "title": "Services & Barbers",
+      "addService": "+ New service",
+      "addBarber": "+ New barber",
+      "barbers": "Barbers",
+      "servicesList": "Registered services",
+      "form": {
+        "barberName": "Barber name",
+        "barberPhone": "Barber WhatsApp",
+        "barberAddress": "Address",
+        "barberBio": "About the barber",
+        "serviceName": "Service name",
+        "serviceDescription": "Description",
+        "serviceDuration": "Duration (minutes)",
+        "servicePrice": "Price (R$)",
+        "photo": "Photo",
+        "uploadPhoto": "Upload photo"
+      }
+    },
+    "appointments": {
+      "title": "Appointments",
+      "client": "Client",
+      "service": "Service",
+      "time": "Time",
+      "status": "Status",
+      "actions": "Actions",
+      "markCompleted": "Complete",
+      "markCancelled": "Cancel",
+      "filterDate": "Filter by date"
+    },
+    "dev": {
+      "title": "Developer Panel",
+      "manageAdmins": "Manage Admins",
+      "createAdmin": "Create admin account",
+      "adminEmail": "Admin email",
+      "adminRole": "Role",
+      "logs": "System logs",
+      "generalSettings": "General settings",
+      "appName": "App name",
+      "whatsappTemplate": "WhatsApp message template"
+    }
+  }
+}

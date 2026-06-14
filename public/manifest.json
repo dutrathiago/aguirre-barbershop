@@ -1,0 +1,25 @@
+{
+  "name": "Aguirre Barbershop",
+  "short_name": "Aguirre",
+  "description": "Agende seu horário na Aguirre Barbershop",
+  "start_url": "/pt-BR/home",
+  "display": "standalone",
+  "background_color": "#080A09",
+  "theme_color": "#004D2C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "business"]
+}

@@ -1,0 +1,150 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "skip": "Saltar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "logout": "Cerrar sesión",
+    "yes": "Sí",
+    "no": "No",
+    "close": "Cerrar",
+    "seeAll": "Ver todos",
+    "error": "Ocurrió un error. Intente nuevamente.",
+    "success": "¡Operación completada con éxito!",
+    "required": "Campo requerido"
+  },
+  "nav": {
+    "home": "Inicio",
+    "appointments": "Citas",
+    "chat": "Chat",
+    "profile": "Perfil",
+    "dashboard": "Panel",
+    "schedule": "Agenda",
+    "services": "Servicios",
+    "clients": "Clientes",
+    "dev": "Panel Dev"
+  },
+  "splash": { "tagline": "Estilo y Tradición" },
+  "onboarding": {
+    "slide1": {
+      "title": "El mejor corte de la ciudad",
+      "description": "Encuentra tu barbero ideal y reserva tu turno en segundos."
+    },
+    "slide2": {
+      "title": "Calidad y tradición",
+      "description": "Servicios premium con el encanto clásico de Aguirre Barbershop."
+    }
+  },
+  "login": {
+    "title": "Bienvenido de vuelta",
+    "subtitle": "Inicia sesión para reservar tu próximo corte",
+    "email": "Correo",
+    "emailPlaceholder": "tu@correo.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "(11) 99999-9999",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Tu contraseña",
+    "forgotPassword": "Olvidé mi contraseña",
+    "enter": "Iniciar sesión",
+    "createAccount": "Crear cuenta",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "adminAccess": "Acceso Administrativo",
+    "adminSubtitle": "Área restringida a barberos y administradores",
+    "adminLogin": "Ingresar como Admin",
+    "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo",
+    "confirmPassword": "Confirmar contraseña",
+    "confirmPasswordPlaceholder": "Repite tu contraseña",
+    "register": "Crear cuenta",
+    "errorInvalidCredentials": "Correo o contraseña incorrectos.",
+    "errorNotAdmin": "Esta cuenta no tiene permiso de administrador.",
+    "errorPasswordMismatch": "Las contraseñas no coinciden."
+  },
+  "home": {
+    "greeting": "Hola",
+    "location": "Tu ubicación",
+    "searchPlaceholder": "Buscar barbero...",
+    "thisWeek": "Esta semana",
+    "availableTimes": "Horarios disponibles",
+    "nearbyBarbers": "Barberías cercanas",
+    "noBarbers": "No se encontraron barberos.",
+    "schedule": "Reservar",
+    "km": "km",
+    "stars": "estrellas"
+  },
+  "barber": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "bookNow": "Reservar turno",
+    "duration": "min",
+    "address": "Dirección",
+    "rating": "Calificación",
+    "noServices": "Sin servicios registrados.",
+    "noReviews": "Sin reseñas todavía."
+  },
+  "booking": {
+    "title": "Reservar Turno",
+    "selectDate": "Selecciona la fecha",
+    "selectTime": "Selecciona el horario",
+    "summary": "Resumen de la Reserva",
+    "service": "Servicio",
+    "professional": "Profesional",
+    "date": "Fecha",
+    "time": "Horario",
+    "price": "Precio",
+    "confirm": "Confirmar Reserva",
+    "whatsappReminder": "Recibirás un recordatorio por WhatsApp 1 hora antes de tu turno.",
+    "noSlots": "Sin horarios disponibles para esta fecha.",
+    "successTitle": "¡Reserva confirmada!",
+    "successMessage": "Tu turno fue reservado con éxito."
+  },
+  "chat": {
+    "title": "Chat",
+    "privacyNotice": "Los mensajes no se almacenan y serán eliminados automáticamente después del servicio.",
+    "openWhatsApp": "Abrir en WhatsApp",
+    "inputPlaceholder": "Escribe un mensaje...",
+    "send": "Enviar",
+    "online": "En línea",
+    "offline": "Desconectado"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "editProfile": "Editar Perfil",
+    "upcomingAppointments": "Próximas citas",
+    "pastAppointments": "Historial",
+    "noAppointments": "No se encontraron citas.",
+    "notifications": "Notificaciones",
+    "language": "Idioma",
+    "status": {
+      "confirmed": "Confirmado",
+      "completed": "Completado",
+      "cancelled": "Cancelado"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Panel",
+      "todayAppointments": "Citas hoy",
+      "totalClients": "Total de clientes",
+      "nextAppointment": "Próxima cita",
+      "revenue": "Ingresos del día",
+      "upcomingToday": "Citas de hoy",
+      "noAppointments": "Sin citas hoy."
+    },
+    "schedule": { "title": "Gestionar Agenda", "addSlot": "+ Agregar horario", "removeSlot": "Eliminar", "occupied": "Ocupado", "available": "Disponible", "selectDate": "Selecciona una fecha" },
+    "services": { "title": "Servicios y Barberos", "addService": "+ Nuevo servicio", "addBarber": "+ Nuevo barbero", "barbers": "Barberos", "servicesList": "Servicios registrados", "form": { "barberName": "Nombre del barbero", "barberPhone": "WhatsApp del barbero", "barberAddress": "Dirección", "barberBio": "Sobre el barbero", "serviceName": "Nombre del servicio", "serviceDescription": "Descripción", "serviceDuration": "Duración (minutos)", "servicePrice": "Precio (R$)", "photo": "Foto", "uploadPhoto": "Subir foto" } },
+    "appointments": { "title": "Citas", "client": "Cliente", "service": "Servicio", "time": "Horario", "status": "Estado", "actions": "Acciones", "markCompleted": "Completar", "markCancelled": "Cancelar", "filterDate": "Filtrar por fecha" },
+    "dev": { "title": "Panel del Desarrollador", "manageAdmins": "Gestionar Admins", "createAdmin": "Crear cuenta admin", "adminEmail": "Correo del admin", "adminRole": "Rol", "logs": "Registros del sistema", "generalSettings": "Configuración general", "appName": "Nombre de la app", "whatsappTemplate": "Plantilla de mensaje WhatsApp" }
+  }
+}

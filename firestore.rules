@@ -1,0 +1,88 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Helper functions ───────────────────────────────────────────────────────
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    function isBarber() {
+      return isAuthenticated() && getUserRole() == 'barber';
+    }
+
+    function isDev() {
+      return isAuthenticated() && getUserRole() == 'dev';
+    }
+
+    function isAdmin() {
+      return isBarber() || isDev();
+    }
+
+    // ─── Users ─────────────────────────────────────────────────────────────────
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isAdmin();
+      allow create: if isAuthenticated() && request.auth.uid == uid;
+      allow update: if isOwner(uid) || isAdmin();
+      allow delete: if isDev();
+    }
+
+    // ─── Barbers ───────────────────────────────────────────────────────────────
+    match /barbers/{barberId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    // ─── Services ──────────────────────────────────────────────────────────────
+    match /services/{serviceId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    // ─── Availability / Slots ──────────────────────────────────────────────────
+    match /availability/{barberId}/slots/{date} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin() || isAuthenticated(); // clients write when booking
+    }
+
+    // ─── Appointments ──────────────────────────────────────────────────────────
+    match /appointments/{appointmentId} {
+      allow read: if isAuthenticated() && (
+        resource.data.clientId == request.auth.uid ||
+        resource.data.barberId == request.auth.uid ||
+        isAdmin()
+      );
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && (
+        resource.data.clientId == request.auth.uid ||
+        isAdmin()
+      );
+      allow delete: if isDev();
+    }
+
+    // ─── Chat Messages ─────────────────────────────────────────────────────────
+    match /messages/{appointmentId}/messages/{messageId} {
+      allow read, write: if isAuthenticated();
+    }
+
+    // ─── Logs (Dev only) ───────────────────────────────────────────────────────
+    match /logs/{logId} {
+      allow read: if isDev();
+      allow write: if isAdmin();
+    }
+
+    // ─── Settings ──────────────────────────────────────────────────────────────
+    match /settings/{settingId} {
+      allow read: if isAuthenticated();
+      allow write: if isDev();
+    }
+  }
+}

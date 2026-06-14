@@ -1,0 +1,50 @@
+.container {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, var(--color-surface-high) 0%, var(--color-bg) 100%);
+  position: relative;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  z-index: 10;
+}
+
+.tagline {
+  color: var(--color-primary-bright);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+.loader {
+  position: absolute;
+  bottom: var(--space-16);
+  display: flex;
+  gap: var(--space-2);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(1) { animation-delay: 0s; }
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 1; }
+}

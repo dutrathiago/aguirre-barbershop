@@ -1,0 +1,197 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "skip": "Pular",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "add": "Adicionar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "logout": "Sair da conta",
+    "yes": "Sim",
+    "no": "Não",
+    "close": "Fechar",
+    "seeAll": "Ver todos",
+    "error": "Ocorreu um erro. Tente novamente.",
+    "success": "Operação realizada com sucesso!",
+    "required": "Campo obrigatório"
+  },
+  "nav": {
+    "home": "Início",
+    "appointments": "Agendamentos",
+    "chat": "Chat",
+    "profile": "Perfil",
+    "dashboard": "Dashboard",
+    "schedule": "Agenda",
+    "services": "Serviços",
+    "clients": "Clientes",
+    "dev": "Painel Dev"
+  },
+  "splash": {
+    "tagline": "Estilo & Tradição"
+  },
+  "onboarding": {
+    "slide1": {
+      "title": "O melhor corte da cidade",
+      "description": "Encontre o barbeiro ideal e agende seu horário em segundos."
+    },
+    "slide2": {
+      "title": "Qualidade e tradição",
+      "description": "Serviços premium com o charme clássico da Aguirre Barbershop."
+    }
+  },
+  "login": {
+    "title": "Bem-vindo de volta",
+    "subtitle": "Entre para agendar seu próximo corte",
+    "email": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "phone": "Telefone",
+    "phonePlaceholder": "(11) 99999-9999",
+    "password": "Senha",
+    "passwordPlaceholder": "Sua senha",
+    "forgotPassword": "Esqueci minha senha",
+    "enter": "Entrar",
+    "createAccount": "Criar conta",
+    "noAccount": "Não tem uma conta?",
+    "hasAccount": "Já tem uma conta?",
+    "adminAccess": "Acesso Administrativo",
+    "adminSubtitle": "Área restrita a barbeiros e administradores",
+    "adminLogin": "Entrar como Admin",
+    "name": "Nome completo",
+    "namePlaceholder": "Seu nome completo",
+    "confirmPassword": "Confirmar senha",
+    "confirmPasswordPlaceholder": "Repita sua senha",
+    "register": "Criar conta",
+    "errorInvalidCredentials": "E-mail ou senha incorretos.",
+    "errorNotAdmin": "Esta conta não tem permissão de administrador.",
+    "errorPasswordMismatch": "As senhas não coincidem."
+  },
+  "home": {
+    "greeting": "Olá",
+    "location": "Sua localização",
+    "searchPlaceholder": "Buscar barbeiro...",
+    "thisWeek": "Esta semana",
+    "availableTimes": "Horários disponíveis",
+    "nearbyBarbers": "Barbearias próximas",
+    "noBarbers": "Nenhum barbeiro encontrado.",
+    "schedule": "Agendar",
+    "km": "km",
+    "stars": "estrelas"
+  },
+  "barber": {
+    "about": "Sobre",
+    "services": "Serviços",
+    "gallery": "Galeria",
+    "reviews": "Avaliações",
+    "bookNow": "Agendar Horário",
+    "duration": "min",
+    "address": "Endereço",
+    "rating": "Avaliação",
+    "noServices": "Nenhum serviço cadastrado.",
+    "noReviews": "Nenhuma avaliação ainda."
+  },
+  "booking": {
+    "title": "Agendar Horário",
+    "selectDate": "Selecione a data",
+    "selectTime": "Selecione o horário",
+    "summary": "Resumo do Agendamento",
+    "service": "Serviço",
+    "professional": "Profissional",
+    "date": "Data",
+    "time": "Horário",
+    "price": "Valor",
+    "confirm": "Confirmar Agendamento",
+    "whatsappReminder": "Você receberá um lembrete via WhatsApp 1 hora antes do horário.",
+    "noSlots": "Sem horários disponíveis para esta data.",
+    "successTitle": "Agendamento confirmado!",
+    "successMessage": "Seu horário foi reservado com sucesso."
+  },
+  "chat": {
+    "title": "Chat",
+    "privacyNotice": "As mensagens não são armazenadas e serão apagadas automaticamente após o atendimento.",
+    "openWhatsApp": "Abrir no WhatsApp",
+    "inputPlaceholder": "Digite uma mensagem...",
+    "send": "Enviar",
+    "online": "Online",
+    "offline": "Offline"
+  },
+  "profile": {
+    "title": "Meu Perfil",
+    "editProfile": "Editar Perfil",
+    "upcomingAppointments": "Próximos agendamentos",
+    "pastAppointments": "Histórico",
+    "noAppointments": "Nenhum agendamento encontrado.",
+    "notifications": "Notificações",
+    "language": "Idioma",
+    "status": {
+      "confirmed": "Confirmado",
+      "completed": "Concluído",
+      "cancelled": "Cancelado"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard",
+      "todayAppointments": "Agendamentos hoje",
+      "totalClients": "Total de clientes",
+      "nextAppointment": "Próximo atendimento",
+      "revenue": "Receita do dia",
+      "upcomingToday": "Atendimentos de hoje",
+      "noAppointments": "Sem atendimentos hoje."
+    },
+    "schedule": {
+      "title": "Gerenciar Agenda",
+      "addSlot": "+ Adicionar horário",
+      "removeSlot": "Remover",
+      "occupied": "Ocupado",
+      "available": "Disponível",
+      "selectDate": "Selecione uma data"
+    },
+    "services": {
+      "title": "Serviços & Barbeiros",
+      "addService": "+ Novo serviço",
+      "addBarber": "+ Novo barbeiro",
+      "barbers": "Barbeiros",
+      "servicesList": "Serviços cadastrados",
+      "form": {
+        "barberName": "Nome do barbeiro",
+        "barberPhone": "WhatsApp do barbeiro",
+        "barberAddress": "Endereço",
+        "barberBio": "Sobre o barbeiro",
+        "serviceName": "Nome do serviço",
+        "serviceDescription": "Descrição",
+        "serviceDuration": "Duração (minutos)",
+        "servicePrice": "Preço (R$)",
+        "photo": "Foto",
+        "uploadPhoto": "Enviar foto"
+      }
+    },
+    "appointments": {
+      "title": "Agendamentos",
+      "client": "Cliente",
+      "service": "Serviço",
+      "time": "Horário",
+      "status": "Status",
+      "actions": "Ações",
+      "markCompleted": "Concluir",
+      "markCancelled": "Cancelar",
+      "filterDate": "Filtrar por data"
+    },
+    "dev": {
+      "title": "Painel do Desenvolvedor",
+      "manageAdmins": "Gerenciar Admins",
+      "createAdmin": "Criar conta admin",
+      "adminEmail": "E-mail do admin",
+      "adminRole": "Papel",
+      "logs": "Logs do sistema",
+      "generalSettings": "Configurações gerais",
+      "appName": "Nome do aplicativo",
+      "whatsappTemplate": "Template de mensagem WhatsApp"
+    }
+  }
+}
